@@ -1,5 +1,7 @@
 GC Lab Chile Visualizer
+
 Un visualizador de audio interactivo desarrollado con Three.js y WebGL, que crea efectos visuales dinámicos en respuesta a la música.
+
 🎵 Características
 
 Visualización de audio en tiempo real
@@ -23,9 +25,11 @@ bashCopynpm install
 Ejecuta el proyecto:
 
 bashCopynpm run dev
+
 💡 Uso
 
 Ejecuta la aplicación
+
 Selecciona un archivo de audio MP3 para comenzar la visualización
 (Opcional) Agrega una imagen PNG transparente para personalizar la visualización
 ¡Disfruta de los efectos visuales reactivos a tu música!
