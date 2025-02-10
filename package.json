@@ -1,0 +1,72 @@
+{
+  "name": "gclab-visualizer",
+  "version": "1.0.0",
+  "main": "electron.js",
+  "productName": "GC Lab Chile Visualizer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:dev": "electron .",
+    "electron:build": "vite build && electron-builder"
+  },
+  "build": {
+    "appId": "com.gclabchile.visualizer",
+    "productName": "GC Lab Chile Visualizer",
+    "directories": {
+      "output": "dist_electron"
+    },
+    "files": [
+      "dist/**/*",
+      "electron.js"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "publisherName": "GC Lab Chile",
+      "fileAssociations": [
+        {
+          "ext": ["mp3", "wav"],
+          "description": "Audio Files"
+        },
+        {
+          "ext": ["jpg", "png", "gif"],
+          "description": "Image Files"
+        }
+      ]
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.icns",
+      "category": "public.app-category.graphics-design"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/icon.png",
+      "category": "Graphics"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "GC Lab Chile Visualizer",
+      "license": "LICENSE.txt"
+    }
+  },
+  "author": {
+    "name": "Gonzalo Sandoval",
+    "email": "gsandoval@gclabchile.com",
+    "url": "https://gclabchile.com"
+  },
+  "license": "CC-BY-NC-4.0",
+  "description": "Visualizador de audio reactivo desarrollado por GC Lab Chile",
+  "dependencies": {
+    "three": "^0.173.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "electron": "^28.2.1",
+    "electron-builder": "^24.9.1"
+  }
+}
