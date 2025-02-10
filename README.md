@@ -1,6 +1,8 @@
 GC Lab Chile Visualizer
 
+
 Un visualizador de audio interactivo desarrollado con Three.js y WebGL, que crea efectos visuales dinámicos en respuesta a la música.
+
 
 🎵 Características
 
@@ -10,6 +12,7 @@ Shaders personalizados para efectos visuales
 Soporte para imágenes PNG personalizadas
 Efectos de bloom y glitch
 Interfaz intuitiva y fácil de usar
+
 
 🚀 Instalación
 
@@ -26,6 +29,7 @@ Ejecuta el proyecto:
 
 bashCopynpm run dev
 
+
 💡 Uso
 
 Ejecuta la aplicación
@@ -35,6 +39,7 @@ Selecciona un archivo de audio MP3 para comenzar la visualización
 Agrega una imagen PNG transparente para personalizar la visualización
 
 ¡Disfruta de los efectos visuales reactivos a tu música!
+
 
 🛠️ Tecnologías utilizadas
 
@@ -48,6 +53,7 @@ WebGL
 Web Audio API
 
 Custom Shaders (GLSL)
+
 
 
 📄 Licencia
@@ -67,6 +73,7 @@ NoComercial — No puede utilizar el material para una finalidad comercial.
 
 Ver licencia completa
 
+
 👥 Autor
 
 Gonzalo Sandoval
@@ -76,6 +83,7 @@ Ingeniero Electrónico
 Fundador GC Lab Chile
 
 Email: gsandoval@gclabchile.com
+
 
 🤝 Contribuir
 
